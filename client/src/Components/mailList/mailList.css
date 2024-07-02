@@ -1,0 +1,62 @@
+.mailList {
+  background-color: #00224f;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+}
+
+.mailListContent {
+  width: 80%;
+  align-self: center;
+}
+
+.mailListContent h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.mailListContent p {
+  color: #89a3be;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.MailIP {
+  display: flex;
+  justify-content: center;
+}
+
+.mailSubscribe {
+  padding: 12px 34px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #006ce4;
+  border: none;
+  border-radius: 4px;
+  margin-left: 5px;
+  color: white;
+}
+
+.mailInput {
+  width: 420px;
+  color: #7e758b;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.mailListContent span {
+  color: #89a3be;
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

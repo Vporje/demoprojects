@@ -1,0 +1,90 @@
+.hotelListContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.listWapper {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 10px;
+  
+}
+
+.listSearch {
+  flex: 8%;
+  background-color: #f7c036d8;
+  padding: 20px 20px;
+  border-radius: 10px;
+  position: sticky;
+  top: 20px;
+  height: max-content;
+}
+.lsTitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.lsItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.lsLabel {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.lsInput {
+  padding: 10px;
+  border: none;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.lsCheckInOut {
+  padding: 10px;
+  border: none;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.lsOptions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.optionsIP {
+  padding: 2px 6px;
+  width: 60px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.lsSearchBtn {
+  width: 100%;
+  background-color: #006ce4;
+  padding: 10px 0;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.listResult {
+  flex: 4;
+}

@@ -1,0 +1,85 @@
+.featuredProps {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.featuredPropsItems {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.featuredPropsItem {
+  flex: 1;
+  overflow: hidden;
+}
+
+.featuredPropsImg {
+  width: 100%;
+  object-fit: cover;
+  height: 220px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.featuredPropsInfo {
+  padding: 5px;
+  margin-top: -5px;
+}
+
+.featuredPropsInfo h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.featuredPropsInfo p {
+  color: #595959;
+  font-size: 12px;
+  font-weight: 400;
+}
+.featuredPropsReview {
+  /* border: 1px solid green; */
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.featuredPropsReview .fPRating {
+  background-color: #003b95;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px;
+  margin-right: 8px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.featuredPropsReview .fPRemark {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+.featuredPropsReview .fPReview {
+  color: #595959;
+}
+
+.fPprice {
+  display: flex;
+  justify-content: start;
+  margin-top: 25px;
+  color: #595959;
+  font-size: 12px;
+  font-weight: 400;
+  align-items: baseline;
+}
+
+.fPprice span {
+  margin-left: 3px;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}

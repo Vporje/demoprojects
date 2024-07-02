@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    background-color: white;
+}
+
+.footerLists{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footerList{
+    margin-top: 40px;
+}
+.footerItem{
+    font-size: 13px;
+    font-weight: 400;
+    color: #0083EB;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 4px;
+}
+
+.bottomContent{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.extranet{
+    color:#0083EB;
+    font: 16px;
+    font-weight: 400;
+}
+
+.copyright{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}

@@ -1,0 +1,34 @@
+.featuredMain{
+    width: 80%;
+    z-index: 1;
+}
+
+.featuredMain p{
+    color: #7E5959;
+    font-size: 14px;
+}
+
+.featuredContainer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.featuredItems{
+    position: relative;
+    height: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.featuredImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.featuredTitles{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
