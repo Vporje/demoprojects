@@ -79,7 +79,6 @@ const Header = ({ type, show }) => {
         {type !== "list" && (
           <>
             <h1 className="headerTitle">Find your next stay</h1>
-            <h2>vikram</h2>
             <p className="headerTagline">
               Search low prices on hotels, homes and much more...
             </p>
